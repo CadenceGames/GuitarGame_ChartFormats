@@ -45,16 +45,15 @@ Difficulties:
 
 ### Note, Modifier, and Special Phrase Type Divisions
 
-These are the note/modifier type divisions for 6-fret guitar tracks:
+| Note Type    | Reservation
+| :--------    | :----------
+| 0 thru 31    | Standard
+| 32 thru 63   | Guitar Hero
+| 64 thru 95   | Rock Band
+| 96 thru 127  | Clone Hero/Strikeline
+| 128 thru 159 | Downbeat
 
-| Note Type   | Description                                                      |
-| :--------   | :----------                                                      |
-| 0 thru 31   | Standard notes/modifiers                                         |
-| 32 thru 63  | Guitar Hero-specific notes/modifiers such as drums Expert+ kicks |
-| 64 thru 95  | Rock Band-specific notes/modifiers such as drums cymbal markers  |
-| 96 thru 127 | Clone Hero-added notes/modifiers                                 |
-
-Any games/programs that want to add custom types should reserve the next set of 32.
+In the spirit of avoiding nonsensical orderings, these reservations should be kept consistent with 5-fret guitar and drums.
 
 ### Note and Modifier Types
 

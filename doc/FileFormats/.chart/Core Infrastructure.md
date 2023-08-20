@@ -375,7 +375,9 @@ A special phrase usually does not apply to the tick at the very end of its lengt
 
 ### Note, Modifier, and Special Phrase Type Divisions
 
-To help prevent issues with future additions to existing specifications creating nonsensical ordering for note/modifier/special types, it was decided that going forward types should be divided into sections of 32 to help organize things. These divisions will be specified in each track type's document.
+To help prevent issues with future additions creating nonsensical orderings for note/modifier/special types, the values for each are divided into groups of 32 for organization. These divisions are specified in each track type's document.
+
+These divisions are generally reserved on a game-by-game basis: any game that wants to add new types should reserve the next available set of 32. However, they are not strictly required to only correlate to a specific game: for example, the [DJ Hero proposal](../../Proposals/DJ%20Hero%20Formats/.chart%20Format.md) uses these divisions for general organization due to how complex things can get.
 
 ### Local Events
 
